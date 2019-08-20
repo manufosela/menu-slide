@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <title>menu-slide demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+    <script type="module" src="../menu-slide.js"></script>
+    <style>
+      .blocks {
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+      }
+      .block {
+        display:flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        white-space: normal;
+      }
+      .block1 {
+        
+      }
+      .block2 {
+        max-width: 70vw;
+      }
+      .code {
+        padding: 20px;
+        color:#FFF; 
+        background: #000;
+      }
+      .attributes {
+        padding-left: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="vertical-section-container centered">
+      <h3>Basic menu-slide Demo</h3>
+      <div class="blocks">
+        <pre class="block code">
+          <code>
+            &lt;menu-slide&gt;&lt;/menu-slide&gt;
+          </code>
+        </pre>
+        <pre class="block attributes">
+          <h3>Attributes</h3>
+          <ul>
+            <li>property1 (String)</li>
+            <li>property2 (Number)</li>
+          </ul>
+        </pre>
+      </div>
+      <div class="blocks">
+        <menu-slide class="block1"></menu-slide>
+        <div class="block2">
+          <h3>Otro contenido de prueba</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis alias excepturi dolores reprehenderit consequuntur voluptate at ad. Autem quo non deleniti voluptatum unde fuga dolores corrupti culpa optio? Porro, explicabo.</p>
+        </div>
+    </div>
+  </body>
+</html>
